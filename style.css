@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+  
+:root {
+    --blue-violet: #1C0221;
+    --purple: #7B5E7B;
+    --white: #ffffff;
+    --beige: #FFFDED;
+    --brown: #938274;
+    --yellow: #FCE762;
+    --violet: #420264;
+}
+
+body {
+    background-color: var(--blue-violet);
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+    cursor: url('images/coffee.png'), auto;
+}
+
+h1, h2, h3, h4, h5 h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    color: var(--purple);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--yellow);
+}
+
+ul {
+    padding: 12px;
+}
