@@ -61,6 +61,20 @@ ul {
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
+.text-white {
+    color: var(--white);
+}
+
+.text-beige {
+    color: var(--beige);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.text-yellow {
+    color: var(--yellow);
 }
 
 #header {
