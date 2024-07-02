@@ -15,8 +15,9 @@ body {
     font-family: "Anonymous Pro", monospace;
     font-weight: 400;
     font-style: normal;
-    cursor: url('images/coffee.png'), auto;
+    /* cursor: url('images/coffee.png'), auto; */
     color: var(--beige);
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5 h6 {
@@ -211,13 +212,27 @@ ul {
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 75% }
+    to { width: 100% }
   }
   
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: var(--yellow); }
+}
+
+/* -------------------------------------------------------------------------------- */
+/*	STACKS
+/* -------------------------------------------------------------------------------- */
+ul.tech-stacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    grid-gap: 32px;
+}
+
+ul.tech-stacks li img {
+    height: 150px;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -246,5 +261,9 @@ ul {
     #header .nav-list ul li a {
         font-size: larger;
         color: var(--purple);
+    }
+
+    #about .container p {
+        width: 80%;
     }
 }
